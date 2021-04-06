@@ -1,1 +1,32 @@
 /* Other rules */
+h1 {
+  color: #5c48d3;
+  height: 71px;
+  margin-right: 50px;
+  margin-left: 30px;
+  margin-top: 71px;
+  font-size: 39px;
+}
+
+h1 > span {
+  color: black;
+  margin-left: 50px;
+  font-size: 39px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Todo {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  height: 30px;
+}
+
+.Todo text {
+  width: 548px;
+  height: 65px;
+  margin-top: 502px;
+  margin-left: 592px;
+  border-radius: 10px;
+  border: #5c48d3;
+}
