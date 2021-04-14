@@ -1,8 +1,6 @@
 import React from "react";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-// Je créée ma fonction
 const Task = ({ handleClickCheck, handleClickTrash, tasks }) => {
   return (
     <ul className="tasks">
@@ -17,9 +15,10 @@ const Task = ({ handleClickCheck, handleClickTrash, tasks }) => {
                   onChange={() => handleClickCheck(index)}
                 />
                 <span className={task.done ? "done" : ""} key={index}>
-                  {tasks.title}
+                  {task.title}
                 </span>
               </div>
+
               <FontAwesomeIcon
                 onClick={() => handleClickTrash(index)}
                 className="trash"
